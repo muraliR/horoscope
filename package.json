@@ -13,7 +13,8 @@
     "npm": "*",
     "express": "*",
     "express-handlebars": "*",
-    "request": "*",
-    "body-parser": "*"
+    "body-parser": "*",
+    "http-request": "*",
+    "cheerio": "*"
   }
 }
