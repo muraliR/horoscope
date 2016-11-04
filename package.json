@@ -1,0 +1,19 @@
+{
+  "name": "horoscope",
+  "version": "1.0.0",
+  "description": "Horoscope",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node" : "*",
+    "npm": "*",
+    "express": "*",
+    "express-handlebars": "*",
+    "request": "*",
+    "body-parser": "*"
+  }
+}

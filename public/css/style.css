@@ -1,0 +1,52 @@
+.hidden {
+  display: none;
+}
+
+.app-section {
+  background-color: #b9bbbf;
+  height: 90%;
+}
+
+.app-content {
+  /*background: #2C2C2C;*/
+}
+
+/*.meme-create-form input{
+  margin-bottom: 5px;
+  border-radius: 8px;
+}*/
+
+
+.select-dropdown {
+  font-family: Cursive;
+  font-size: 20px;
+  border: 0;
+  width: 90%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  color: initial;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 5%;
+  /*background-color: paleturquoise;*/
+}
+
+.horoscope-check {
+  background-color: #4486f0 !important;
+  color: #f3f4f5 !important; 
+  width: 90% !important;
+}
+
+.result p {
+  font-size: 1.1em;
+  color: dimgrey;
+  margin-top: 5%;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.loading-section {
+  width: auto;
+  height: auto;
+}

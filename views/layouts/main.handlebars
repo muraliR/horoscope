@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>HoroScope</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" type="text/css" href="/css/app.min.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* TODO */
+  </style>
+  </head>
+
+  
+
+  <body>
+  <div class="app-page" data-page="home">
+    <div class="app-topbar blue">
+      <div class="app-title">Horoscope</div>
+    </div>
+    <div class="app-content">
+        <select name="sign" class="select-dropdown">Sun Sign
+            <option value="" disabled selected> Select your Sign</option>
+            <option value="aries">Aries</option>  
+            <option value="taurus">Taurus</option>  
+            <option value="gemini">Gemini</option>  
+            <option value="cancer">Cancer</option>  
+            <option value="leo">Leo</option>  
+            <option value="virgo">Virgo</option>  
+            <option value="libra">Libra</option>  
+            <option value="scorpio">Scorpio</option>  
+            <option value="sagittarius">Sagittarius</option>  
+            <option value="capricorn">Capricorn</option>  
+            <option value="aquarius">Aquarius</option>  
+            <option value="pisces">Pisces</option>  
+        </select>      
+
+        <select name="day" class="select-dropdown">Day
+            <option value="" disabled selected> Select Day</option>
+            <option value="today">Today</option>  
+            <option value="tomorrow">Tomorrow</option>  
+            <option value="yesterday">Yesterday</option>  
+        </select>      
+
+        <div class="app-button horoscope-check">Check!</div>
+
+        <div class="result" hidden>
+            <p class="content"></p>
+            <p class="intensity"></p>
+            <p class="mood"></p>
+            <p class="keywords"></p>
+        </div>
+
+        <div class="loading-section" hidden>
+            <img src="http://www.vincenzomazza.net/templates/stamford/infinite-gif-preloader.gif">
+        </div>
+    </div>
+  </div>
+
+
+  <div class="app-page" data-page="meme-show">
+    <div class="app-topbar blue">
+      <div class="app-button left go-to-home" data-back data-autotitle></div>
+      <div class="app-title">Edit Meme
+        <div class="actions" hidden>
+          <div class="share-button" href="javascript:void(0);"><i class="fa fa-share-alt"></i></div>
+          <a class="download-button" href="" id="download-button"><i class="fa fa-download"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="app-content">
+    </div>
+
+
+    <script type="text/javascript" src="/js/zepto.js"></script>
+    <script type="text/javascript" src="/js/app.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
