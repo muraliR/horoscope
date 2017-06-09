@@ -9,12 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node" : "*",
-    "npm": "*",
-    "express": "*",
-    "express-handlebars": "*",
-    "body-parser": "*",
-    "http-request": "*",
-    "cheerio": "*"
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.1",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "http-request": "^0.7.0"
   }
 }
