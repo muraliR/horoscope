@@ -4,7 +4,7 @@
   "description": "Horoscope",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node horoscope.js"
   },
   "author": "",
   "license": "ISC",
